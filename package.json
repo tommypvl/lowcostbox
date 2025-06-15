@@ -4,9 +4,20 @@
   "description": "UA Lowcost Market Server",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "next dev",
+    "build": "next build"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "next": "^15.3.3",
+    "next-i18next": "^15.4.2",
+    "node-telegram-bot-api": "^0.63.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.1",
+    "typescript": "5.8.3"
   }
 }
