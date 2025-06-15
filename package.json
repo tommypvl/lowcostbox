@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "UA Lowcost Market Server",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "start": "node src/index.js"
   },
