@@ -1,5 +1,13 @@
 {
   "name": "lowcostbox",
   "version": "1.0.0",
-  "scripts": {}
+  "description": "UA Lowcost Market Server",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
